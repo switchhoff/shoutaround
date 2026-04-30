@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" font-family="system-ui, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- Onboarding -->
+  <rect x="20" y="70" width="100" height="60" rx="8" fill="#0d1117" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="70" y="96" text-anchor="middle" fill="#f59e0b" font-size="10" font-weight="700">Onboarding</text>
+  <text x="70" y="112" text-anchor="middle" fill="#888" font-size="9">name + emoji</text>
+
+  <!-- Create Tab -->
+  <rect x="170" y="20" width="100" height="60" rx="8" fill="#0d1117" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="220" y="46" text-anchor="middle" fill="#3b82f6" font-size="10" font-weight="700">Create Tab</text>
+  <text x="220" y="61" text-anchor="middle" fill="#888" font-size="9">set group + amount</text>
+  <text x="220" y="74" text-anchor="middle" fill="#888" font-size="9">get join code</text>
+
+  <!-- Join Tab -->
+  <rect x="170" y="120" width="100" height="60" rx="8" fill="#0d1117" stroke="#8b5cf6" stroke-width="1.5"/>
+  <text x="220" y="146" text-anchor="middle" fill="#8b5cf6" font-size="10" font-weight="700">Join Tab</text>
+  <text x="220" y="161" text-anchor="middle" fill="#888" font-size="9">enter code</text>
+  <text x="220" y="174" text-anchor="middle" fill="#888" font-size="9">join existing round</text>
+
+  <!-- Active Tab -->
+  <rect x="340" y="70" width="100" height="60" rx="8" fill="#0d1117" stroke="#10b981" stroke-width="1.5"/>
+  <text x="390" y="96" text-anchor="middle" fill="#10b981" font-size="10" font-weight="700">Active Tab</text>
+  <text x="390" y="112" text-anchor="middle" fill="#888" font-size="9">rotation · history</text>
+
+  <!-- Stats -->
+  <rect x="460" y="70" width="80" height="60" rx="8" fill="#0d1117" stroke="#f43f5e" stroke-width="1.5"/>
+  <text x="500" y="96" text-anchor="middle" fill="#f43f5e" font-size="10" font-weight="700">Stats</text>
+  <text x="500" y="112" text-anchor="middle" fill="#888" font-size="9">who shouted</text>
+
+  <!-- Arrows -->
+  <line x1="122" y1="100" x2="168" y2="62" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="122" y1="100" x2="168" y2="142" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="272" y1="55" x2="338" y2="90" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="272" y1="155" x2="338" y2="112" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="442" y1="100" x2="458" y2="100" stroke="#555" stroke-width="1.5" marker-end="url(#arr)"/>
+</svg>
